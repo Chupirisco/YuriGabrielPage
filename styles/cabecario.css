@@ -5,16 +5,24 @@
 #a6a8c4 , #e9e9f0  cor de fonte
 
 
-kuronami
+kuronami branca
 .color1 { #abc2ce }; mais forte
 .color2 { #c0d1da };
 .color3 { #d5e1e7 };
 .color4 { #eaf0f3 };
 .color5 { #ffffff }; mais fraca
+
+
+kuronami preta
+#1a1a1d 
+#2c2e31 
+#3a3c3f
+#7b1e28
+#c0c0c0 
 */
 * {
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
   }
@@ -30,14 +38,14 @@ header{
 }
 header h1{
     background: linear-gradient(to right, #abc2ce ,#ffffff);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;    
     margin: 0px;
 }
 
 header nav{  
     background: linear-gradient(to right,#ffffff, #abc2ce);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     display: flex;
     gap: 1vw; 

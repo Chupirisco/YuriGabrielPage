@@ -1,0 +1,55 @@
+ .secao1{
+  padding-inline: 5vw;
+    width:100%;
+    height: calc(100vh - 10vh);
+    background: linear-gradient(to right,#1a1a1d, #2c2e31);
+}
+
+  .secao1 img {
+    position: absolute;
+    top: calc(10vh + 10vh);
+    right: 10vw; 
+    height: 50%;
+    box-shadow: 0 10px 20px #d5e1e783;
+    border-radius: 15px;
+    z-index: 0;
+  }
+  .secao1 p{
+    font-size: 1.2rem;
+    background: linear-gradient(to right, #1a1a1d, #2c2e31);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;;
+  }
+  .secao1 div{
+    margin-block: 10vh 5vh ;
+    display: inline-block;
+    background: linear-gradient(to right, #ffffff, #abc2ce) ;
+    padding: 5px;
+    border: #abc2ce solid 1px;
+    border-radius: 15px;
+  }
+  .secao1 button{
+    font-weight: bold;
+    background-color: #1a1a1d;
+    color: #ffffff;
+    display: inline-block;
+    margin-left: 15vh;
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    border: solid 2px #abc2ce;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+  }
+  .secao1 button:hover {
+    background: linear-gradient(to top, #ffffff, #abc2ce);
+    color: #1a1a1d;
+    cursor: pointer;
+  }
+
+
+  .secao2{
+    padding-inline: 5vw;
+    width:100%;
+    height: calc(100vh - 10vh);
+    background: linear-gradient(to right,#ffffff, #abc2ce);
+  }
